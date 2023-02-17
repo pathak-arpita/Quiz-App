@@ -1,76 +1,80 @@
-#navbar{
-    display: flex;
-    flex-direction: row;
-    border-radius: 5px;
-    margin-bottom: 12px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
-#navbar h1{
-    margin-left: 2%;
-    margin-right: 47%;
-    letter-spacing: 0.1rem;
-}
-#navbar p{
-   font-size: 20px;
-   background-color: rgb(99, 204, 245);
-   border-radius: 5px;
-   padding: 12px 12px;
-}
+
 body {
-  background: rgb(255, 255, 255);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
+
+#navbar p{
+    font-size: 20px;
+    background-color: rgb(99, 204, 245);
+    border-radius: 5px;
+    padding: 12px 12px;
+    margin-bottom: 20px;
+    /* margin: 17px 322px; */
+}
+
 .main-div {
-  position: relative;
-  width: 100%;
-  max-width: 1000px;
-  min-height: 1000px;
-  display: grid;
-  background-color: rgb(230, 233, 240);
-  padding: 60px;
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    display: grid;
+    background-color: rgb(230, 233, 240);
+    padding: 60px;
 }
 
 .inner-div {
-  position: relative;
-  width: 100%;
-  max-width: 1000px;
-  min-height: 1000px;
-  background-color: #f2f2f2;
-  padding: 30px 2px;
-  border-style: solid #666;
-  border-radius: 40px;
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: #f2f2f2;
+    padding: 30px;
+    border-style: solid #666;
+    border-radius: 40px;
 }
+
 .form-line {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  display: flex;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    display: flex;
 }
+
 .form-label {
-  padding: 10px;
-  font-size: 20px;
-  background-color: rgb(99, 204, 245);
-  border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(99, 204, 245);
+    border-radius: 5px;
 }
 
 .option {
-  padding-left: 30px;
-  margin: 10px;
+    padding-left: 30px;
+    margin: 10px;
 }
+
 .button {
-  padding: 5px 5px;
-  border: 1px solid rgb(155, 132, 132);
-  background-color: rgb(89, 198, 241);
-  margin-left: auto;
-  margin-right: auto;
-  display: inline;
-  border-radius: 3px;
+    padding: 5px;
+    border: 1px solid rgb(155, 132, 132);
+    background-color: rgb(89, 198, 241);
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
 }
+
 #button1 {
-  padding: 8px;
-  color: rgb(19, 18, 18);
-  border-radius: 5px;
-  cursor: pointer;
+    padding: 8px;
+    color: rgb(19, 18, 18);
+    border-radius: 2px;
+    cursor: pointer;
 }
