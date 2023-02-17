@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML, CSS QUIZ</title>
+<link rel="stylesheet" href="style.css">
+</link>
+<script src="quiz.js" defer></script>
+<link rel="icon" type="image/png" href="download.png" />
+</head>
+
+<body>
+    <main class="main-div">
+        <div class="inner-div">
+            <nav id="navbar">
+                <h1>WELCOME TO QUIZ!!</h1><br>
+                <p>HIGH-SCORE : <span id="highscore"> <b>0</b></span> </p>  
+            </nav>
+            <hr>
+            <section id="html">
+            <form class="form-line" name="quiz">
+                <label class="form-label">Q.HTML stands for what ?</label>
+                <div class="option">
+                    <input type="radio" id="label1" name="question1" value="Hypertrophic Management Language">
+                    <label for="label1">Hypertrophic Management Language</label><br>
+                    <input type="radio" id="label2" name="question1" value="Hyperberic Tertiary Logrithm">
+                    <label for="label2">Hyperberic Tertiary Logrithm</label><br>
+                    <input type="radio" id="label3" name="question1" value="Hypertext Markup Language">
+                    <label for="label3">Hypertext Markup Language</label><br>
+                    <input type="radio" id="label4" name="question1" value="Hyperresonant Marginal Logrithm">
+                    <label for="label4">Hyperresonant Marginal Logrithm</label>
+                </div><br>
+
+                <label class="form-label">Q. Choose the correct HTML element for the largest heading ?</label>
+                <div class="option">
+                    <input type="radio" id="label1" name="question2" value="heading">
+                    <label for="label1">heading</label><br>
+                    <input type="radio" id="label2" name="question2" value="head">
+                    <label for="label2">head</label><br>
+                    <input type="radio" id="label3" name="question2" value="h1">
+                    <label for="label3">h1</label><br>
+                    <input type="radio" id="label4" name="question2" value="h6">
+                    <label for="label4">h6</label><br>
+                </div><br>
+
+                <label class="form-label">Q. Which character is used to indicate an end tag ?</label>
+                <div class="option">
+                    <input type="radio" id="label1" name="question3" value="^">
+                    <label for="label1">^</label><br>
+                    <input type="radio" id="label2" name="question3" value="/">
+                    <label for="label2">/</label><br>
+                    <input type="radio" id="label3" name="question3" value="*">
+                    <label for="label3">*</label><br>
+                    <input type="radio" id="label4" name="question3" value="#">
+                    <label for="label4">#</label><br>
+                </div><br>
+
+                <label class="form-label">Q. Inline elements are normally displayed without starting a new line
+                    ?</label>
+                <div class="option">
+                    <input type="radio" id="label1" name="question4" value="true">
+                    <label for="label1">True</label><br>
+                    <input type="radio" id="label2" name="question4" value="false">
+                    <label for="label2">False</label><br>
+                </div><br>
+
+                <label class="form-label">Q. Inside which HTML element do we put the JavaScript ?</label>
+                <div class="option">
+                    <input type="radio" id="label1" name="question5" value="JavaScript">
+                    <label for="label1"> JavaScript </label><br>
+                    <input type="radio" id="label2" name="question5" value="Script">
+                    <label for="label2">Script</label><br>
+                    <input type="radio" id="label3" name="question5" value="js">
+                    <label for="label3">js</label><br>
+                    <input type="radio" id="label4" name="question5" value="scripting">
+                    <label for="label4">scripting</label><br>
+                </div><br>
+
+                <div class="button">
+                    <button id="button1" type="submit" value="submit" onclick="check()">Submit</button>
+                    <button id="button1" type="reset" value="reset">Reset</button>
+                </div>
+            </form>
+        </section>
+        </div>
+    </main>
+</body>
+
+</html>
